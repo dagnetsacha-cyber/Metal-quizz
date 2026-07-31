@@ -79,10 +79,10 @@ const listeQuestion = [
   },
   {
     question: "Quel gaz est le principal responsable de la corrosion (rouille) de l'acier ?",
-    reponse1: "L'Oxygène ($O_2$)",
-    reponse2: "L'Azote ($N_2$)",
-    reponse3: "L'Argon ($Ar$)",
-    reponse4: "L'Hélium ($He$)",
+    reponse1: "L'Oxygène (O2)",
+    reponse2: "L'Azote (N2)",
+    reponse3: "L'Argon (Ar)",
+    reponse4: "L'Hélium (He)",
     reponse: 1,
     explication: "La rouille est une réaction d'oxydation : l'Oxygène de l'air (combiné à l'humidité) réagit avec le Fer pour former des oxydes de fer.",
     thème: "Chimie",
@@ -193,7 +193,7 @@ const listeQuestion = [
     reponse3: "Carbonate de calcium",
     reponse4: "Oxyde de fer",
     reponse: 4,
-    explication: "La rouille est chimiquement de l'Oxyde de Fer hydraté ($Fe_2O_3 \cdot nH_2O$).",
+    explication: "La rouille est chimiquement de l'Oxyde de Fer hydraté (Fe_2O_3 \cdot nH_2O).",
     thème: "Chimie",
     global: "tout"
   },
@@ -501,7 +501,7 @@ const listeQuestion = [
     reponse3: "Calculer l'allongement d'un profilé au pliage",
     reponse4: "Déterminer la tolérance d'assemblage d'un châssis",
     reponse: 2,
-    explication: "Basée sur le théorème de Pythagore ($3^2 + 4^2 = 5^2$), cette règle assure la création d'un angle à $90^\circ$ parfait.",
+    explication: "Basée sur le théorème de Pythagore ($3^2 + 4^2 = 5^2$), cette règle assure la création d'un angle à 90° parfait.",
     thème: "Matériaux",
     global: "tout"
   },
@@ -575,8 +575,8 @@ const listeQuestion = [
   },
   {
     question: "Quel gaz est le plus fréquemment utilisé comme gaz de protection pur en soudage TIG ?",
-    reponse1: "Le Dioxyde de carbone ($CO_2$)",
-    reponse2: "L'Azote ($N_2$)",
+    reponse1: "Le Dioxyde de carbone (CO2)",
+    reponse2: "L'Azote (N2)",
     reponse3: "L'Argon (Ar)",
     reponse4: "L'Hélium pur",
     reponse: 3,
@@ -624,7 +624,7 @@ const listeQuestion = [
     reponse3: "60° (30° par tôle)",
     reponse4: "45° (22,5° par tôle)",
     reponse: 3,
-    explication: "Le chanfrein en V standard est ouvert à $60^\circ$ au total (soit $30^\circ$ de chanfrein sur chaque tôle).",
+    explication: "Le chanfrein en V standard est ouvert à 60° au total (soit 30° de chanfrein sur chaque tôle).",
     thème: "Soudure",
     global: "tout"
   },
@@ -635,7 +635,7 @@ const listeQuestion = [
     reponse3: "Le Molybdène",
     reponse4: "Le Graphite",
     reponse: 2,
-    explication: "Grâce à son point de fusion extrêmement élevé ($3 422\ ^\circ C$), le Tungstène conduit l'arc sans fondre.",
+    explication: "Grâce à son point de fusion extrêmement élevé (3 422°C), le Tungstène conduit l'arc sans fondre.",
     thème: "Soudure",
     global: "tout"
   },
@@ -810,7 +810,7 @@ const listeQuestion = [
     reponse3: "Argon et Acéthylène",
     reponse4: "Azote et Hydrogène",
     reponse: 2,
-    explication: "La combustion d'Oxygène et d'Acéthylène produit la flamme la plus chaude utilisable en atelier ($\sim 3 100\ ^\circ C$).",
+    explication: "La combustion d'Oxygène et d'Acéthylène produit la flamme la plus chaude utilisable en atelier (3 100°C).",
     thème: "Soudure",
     global: "tout"
   },
@@ -900,7 +900,7 @@ const listeQuestion = [
     reponse3: "L'aimant se colle définitivement à la pièce",
     reponse4: "L'acier repousse l'aimant comme deux pôles identiques",
     reponse: 1,
-    explication: "Au passage du point de Curie ($\sim 770\ ^\circ C$), la structure passe en phase austénitique amagnétique.",
+    explication: "Au passage du point de Curie (environ 770°C), la structure passe en phase austénitique amagnétique.",
     thème: "Thermique",
     global: "tout"
   },
@@ -928,12 +928,12 @@ const listeQuestion = [
   },
   {
     question: "En atelier, à quelle température approximative correspond la teinte d'oxydation 'Jaune paille' lors d'un revenu d'outil sur acier polie ?",
-    reponse1: "Environ $150\ ^\circ C$",
-    reponse2: "Environ $220\ ^\circ C$ à $240\ ^\circ C$",
-    reponse3: "Environ $300\ ^\circ C$ à $320\ ^\circ C$",
-    reponse4: "Plus de $450\ ^\circ C$",
+    reponse1: "Environ 150",
+    reponse2: "Environ 220 à 240°C",
+    reponse3: "Environ 300°C à 320°C",
+    reponse4: "Plus de 450°C",
     reponse: 2,
-    explication: "La couleur d'oxydation jaune paille apparaît entre $220\ ^\circ C$ et $240\ ^\circ C$ et conserve la dureté maximale pour les outils de coupe.",
+    explication: "La couleur d'oxydation jaune paille apparaît entre 220°C et 240°C et conserve la dureté maximale pour les outils de coupe.",
     thème: "Thermique",
     global: "tout"
   },
@@ -949,11 +949,11 @@ const listeQuestion = [
     global: "tout"
   },
   {
-    question: "Peut-on tremper efficacement un acier doux de type S235 (contient $\sim 0,15\ \%$ de carbone) ?",
+    question: "Peut-on tremper efficacement un acier doux de type S235 (contient environ 0,15 % de carbone) ?",
     reponse1: "Oui, il devient aussi dur qu'un acier à outil",
     reponse2: "Non, son taux de carbone est trop faible pour former de la martensite",
     reponse3: "Oui, mais uniquement si on le trempe dans de l'huile froide",
-    reponse4: "Oui, à condition de le chauffer au blanc à $1200\ ^\circ C$",
+    reponse4: "Oui, à condition de le chauffer au blanc à 1200°C",
     reponse: 2,
     explication: "Il faut au moins 0,3 % à 0,35 % de Carbone pour tremper un acier. En dessous, la trempe n'a quasiment aucun effet durcissant.",
     thème: "Thermique",
@@ -971,7 +971,7 @@ const listeQuestion = [
     global: "tout"
   },
   {
-    question: "Quel traitement thermochimique permet de durcir la surface d'une pièce en y diffusant de l'azote à basse température ($\sim 500\ ^\circ C$) ?",
+    question: "Quel traitement thermochimique permet de durcir la surface d'une pièce en y diffusant de l'azote à basse température (500°C) ?",
     reponse1: "La nitruration",
     reponse2: "La carburation liquide",
     reponse3: "La galvanisation à chaud",
@@ -1015,18 +1015,18 @@ const listeQuestion = [
     global: "tout"
   },
   {
-    question: "Quelle teinte d'oxydation indique un revenu à haute température ($\sim 300\ ^\circ C$), adapté aux ressorts ou outils devant absorber des chocs ?",
+    question: "Quelle teinte d'oxydation indique un revenu à haute température (300°C), adapté aux ressorts ou outils devant absorber des chocs ?",
     reponse1: "Jaune clair",
     reponse2: "Bleu / bleu violet",
     reponse3: "Brun paille",
     reponse4: "Vert olive",
     reponse: 2,
-    explication: "Le bleu correspond à un revenu poussé autour de $300\ ^\circ C$ : la dureté diminue mais l'élasticité et la résistance aux chocs deviennent maximales.",
+    explication: "Le bleu correspond à un revenu poussé autour de 300°C : la dureté diminue mais l'élasticité et la résistance aux chocs deviennent maximales.",
     thème: "Thermique",
     global: "tout"
   },
   {
-    question: "Que se passe-t-il si l'on surchauffe un acier bien au-delà de sa température de trempe (ex: $> 1100\ ^\circ C$) pendant trop longtemps ?",
+    question: "Que se passe-t-il si l'on surchauffe un acier bien au-delà de sa température de trempe (ex: 1100°C) pendant trop longtemps ?",
     reponse1: "Le grain grossit fortement, rendant l'acier plus fragile après trempe (brûlure du métal)",
     reponse2: "L'acier devient définitivement incassable",
     reponse3: "La pièce se transforme automatiquement en inox",
@@ -1040,7 +1040,7 @@ const listeQuestion = [
     question: "En trempe par induction, comment la chaleur est-elle générée au cœur de la pièce ?",
     reponse1: "Par des brûleurs à gaz haute pression orientés sur la pièce",
     reponse2: "Par des courants de Foucault induits à haute fréquence à la surface du métal",
-    reponse3: "Par immersion dans des sels en fusion à $900\ ^\circ C$",
+    reponse3: "Par immersion dans des sels en fusion à 900°C",
     reponse4: "Par friction mécanique à haute vitesse",
     reponse: 2,
     explication: "L'inducteur en cuivre crée un champ magnétique alternatif qui génère des courants de Foucault et chauffe la surface par effet Joule très rapidement.",
