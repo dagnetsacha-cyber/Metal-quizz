@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titre-principal">METAL QUIZZ</h1>
+    <button id="bouton-lancer">Quizz général</button>
+    <button id="jouer_par_thèmes">jouer par thèmes</button>
+    
+    <div id="thèmes">
+        <button id="Chimie"> Chimie</button>
+        <button id="Matériaux"> Alliages et matériaux</button>
+        <button id="Soudure"> Procédés de soudure</button>
+        <button id="Thermique"> Traitements Thermiques & Métallurgie</button>
+    </div>
+
+    <button id="retour">Retour</button>
+
+    <img id="Acier" src="Acier.png" alt="Image d'acier">
+    <img id="Laiton" src="Laiton.jpg" alt="Image de laiton">
+    <img id="Fonte" src="Fonte.jpg" alt="Image de fonte">
+    <img id="Inox" src="Inox.jpeg" alt="Image d'Inox">
+    <img id="Aluminium" src="Aluminium.webp" alt="Image d'Aluminium">
+    <img id="Titane" src="Titane.webp" alt="Image de Titane">
+
+    <div id="conteneur_reponses">
+        <button id="bouton1">Fe</button>
+        <button id="bouton2">Si</button>
+        <button id="bouton3">O</button>
+        <button id="bouton4">Ma</button>
+    </div>
+
+    <p id="valide">Bonne réponse!</p>
+    <p id="faux">Mauvaise réponse</p>
+    <p id="explication"></p>
+
+    <p id="score-annonce">score</p>
+
+    <button id="suivant">Question suivante</button>
+    <button id="quitter">Quitter</button>
+    <button id="menu">Retourner au menu</button>
+
+    <script src="questions.js"></script>
+    <script src="app.js" defer></script>
+</body>
+</html>

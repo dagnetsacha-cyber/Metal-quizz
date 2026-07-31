@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('Metal5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#titre-principal {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #6495ED;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+#bouton-lancer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#jouer_par_thèmes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#retour {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#thèmes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#Chimie { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+#Matériaux { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+#Soudure { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+#Thermique { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+
+#conteneur_reponses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#bouton1 { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+#bouton2 { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+#bouton3 { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+#bouton4 { color: white; background-color: #3498db; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+
+#valide {
+    font-family: 'Poppins', sans-serif;
+    color: green;
+    font-size: 26px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#faux {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 26px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#explication {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    max-width: 600px;
+    margin: 15px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#suivant {
+    display: block;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#quitter {
+    display: block;
+    margin-left: 0;
+    right: 20px;
+    bottom: 20px;
+    background-color: #3498db;
+    position: fixed;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#score-annonce {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Acier { width: 200px; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; max-height: 140px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+#Laiton { width: 200px; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; max-height: 140px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+#Fonte { width: 200px; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; max-height: 140px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+#Inox { width: 200px; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; max-height: 140px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+#Aluminium { width: 200px; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; max-height: 140px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+#Titane { width: 200px; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; max-height: 140px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
